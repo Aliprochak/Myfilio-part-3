@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family:"Open Sans", sans-serif;
+}
+/*NAV START**/
+
+
+nav{
+    background-color: #02918b;
+    width: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
+   
+}
+nav .logo{
+    width: 40%;
+    padding-left: 25px;
+    
+}
+nav .menu{
+    width: 60%;
+}
+ 
+nav .menu ul li{
+    display: inline-block;
+    
+}
+nav .menu ul li a{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 26px 25px;
+    text-decoration: none;
+    line-height: 61px;
+}
+/**NAV END*/
+
+/**BANNER START*/
+
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 727px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+#banner  h3{
+    width: 400;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+#banner h1{
+    width: 800;
+    font-size: 69px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    line-height: 70px;
+    
+}
+
+#banner p{
+    font-size: 20px;
+    width: 400;
+    line-height: 30px;
+}
+#banner img{
+    display: block;
+    margin: 50px auto;
+}
+ 
+#banner a{
+    background-color: #cfc91d;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 49px;
+    color: black;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+#banner a:hover{
+    color: #3722f1;
+}
+
+/** BANNER END*/
+/**About section start*/
+#about {
+    text-align: center;
+    padding: 98px 0;
+
+
+}
+.section-info h2{
+    color: #02918b;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+    
+}
+.section-info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    padding: 0 138px;
+    margin-bottom: 80px;
+}
+.section-info p b{
+    font-size: 23px;
+    
+}
+#about .about-card{
+    width: 25%;
+    border-right: 1px solid #b9dbdb;
+    padding: 37px 61px 54px;
+    color: #7e8287;
+
+}
+#about .about-card:last-child{
+    border-right: none;
+}
+/**About section end*/
+/**services section start*/
+#services{
+    background-image: url(../img/service_bg.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#services .inner-container{
+    width: 50%;
+    padding-left: 77px;
+}
+.inner-container h2{
+    color:#02918b;
+    font-weight:800;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 98px;
+    
+}
+.inner-container p{
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #7e8287;
+}
+.inner-container p{
+    line-height: 20px;
+}
+#services .services-card{
+    width: 50%;
+    padding-top: 30px;
+}
+.services-card h4{
+    font-size: 16px;
+    padding-top: 20px;
+} 
+.services-card img{
+    padding-top: 10px;
+}
+.services-card p{
+    font-size: 16px;
+    
+}
+/**services section end*/
+
+
+
+
+
+
+
+
+
+
+
